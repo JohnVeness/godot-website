@@ -149,7 +149,7 @@ There are too many exciting changes to list them all here, but here's a curated 
 
 **113 contributors** submitted **297 fixes** for this release. See our [**interactive changelog**](https://godotengine.github.io/godot-interactive-changelog/#4.7-dev3) for the complete list of changes since [4.7-dev2](/article/dev-snapshot-godot-4-7-dev-2/). You can also review [all changes included in 4.7](https://godotengine.github.io/godot-interactive-changelog/#4.7) compared to the previous [4.6 feature release](/releases/4.6/).
 
-This release is built from commit [`778cf54da`](https://github.com/godotengine/godot/commit/778cf54dabd8a9e25b698a87036ab8604183f303).
+This release is built from commit [`60fff00a6`](https://github.com/godotengine/godot/commit/60fff00a660a2aeb03f88c07fb7baed353bcb72f).
 
 ## Downloads
 
