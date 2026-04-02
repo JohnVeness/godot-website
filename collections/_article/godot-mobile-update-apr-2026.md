@@ -1,16 +1,16 @@
 ---
-title: "Godot Mobile update — March 2026"
+title: "Godot Mobile update — April 2026"
 excerpt: "March update from the Godot Mobile Team!"
 categories: ["progress-report"]
 author: Fredia Huya-Kouadio
 image: /storage/blog/covers/march-2026-update-godot-mobile.png
 image_caption_description: "Screenshot of Spin Hero — https://goblinzstudio.com/game/spin-hero/"
-date: 2026-03-26 12:00:00
+date: 2026-04-08 12:00:00
 ---
 
 ## Making mobile games and apps with Godot: major improvements ahead\!
 
-Mobile games represent about half of global game revenue and are the **largest market segment for games**, ahead of consoles and PC. In terms of user base, that share is even higher. From the latest Godot community polls, about **49%** of Godot developers target mobile platforms. Mobile is therefore a major outlet for Godot games and apps, and improvements as to how Godot can be used in this area are crucial.
+Mobile games represent about half of global game revenue and are the **largest market segment for games**, ahead of consoles and PC. In terms of user base, that share is even higher. From the [latest Godot community polls](https://docs.google.com/forms/d/e/1FAIpQLScKWGJoLEeNW1qrsDfZRfk7gHultapacH5ZhQmo9XRZADW1IQ/viewanalytics), about **49%** of Godot developers target mobile platforms. Mobile is therefore a major outlet for Godot games and apps, and improvements as to how Godot can be used in this area are crucial.
 
 A great deal of effort has recently been invested by the community and the Godot Foundation into improving Godot’s mobile capabilities, culminating in the [**Godot 4.6**](https://godotengine.org/releases/4.6/) and [**Godot 4.5.2**](https://godotengine.org/article/maintenance-release-godot-4-5-2/)** releases. Much of the recent “mobile export” work has focused on critical fundamentals: repeatable builds, fewer device-specific surprises, and smoother testing. Below is an overview of some of those efforts. 
 
