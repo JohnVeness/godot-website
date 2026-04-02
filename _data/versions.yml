@@ -16,7 +16,7 @@
   release_notes: "/article/maintenance-release-godot-4-6-2/"
   featured: "4"
   releases:
-    - flavor: "rc2"
+    - name: "rc2"
       release_date: "20 March 2026"
       release_notes: "/article/release-candidate-godot-4-6-2-rc-2/"
     - name: "rc1"
