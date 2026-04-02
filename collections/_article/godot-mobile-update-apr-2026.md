@@ -1,6 +1,6 @@
 ---
 title: "Godot Mobile update — April 2026"
-excerpt: "March update from the Godot Mobile Team!"
+excerpt: "April update from the Godot Mobile Team!"
 categories: ["progress-report"]
 author: Fredia Huya-Kouadio
 image: /storage/blog/covers/march-2026-update-godot-mobile.png
