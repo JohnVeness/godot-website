@@ -7,6 +7,60 @@ image: /storage/blog/covers/godot-showcase-xogot.jpg
 date: 2026-04-04 18:00:00
 ---
 
+<style>
+.xogot-screenshot-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1em;
+  margin-top: 0;
+
+  & > .lightbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & > img,
+  & > .lightbox > img {
+    max-width: 450px;
+    max-height: 450px;
+    aspect-ratio: auto;
+    margin: 0;
+  }
+}
+
+.xogot-float-left {
+  float: left;
+  margin-left: 0;
+}
+
+.xogot-float-right {
+  float: right;
+  margin-right: 0;
+}
+
+@media screen and (width < 800px), (900px < width < 1000px) {
+  .xogot-float-left,
+  .xogot-float-right {
+    float: none;
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  float: clear;
+}
+
+ul, ol {
+  overflow: hidden;
+}
+</style>
+
 We're happy to showcase a project that released last year, but was long in the making. The folks at Xibbon have been working hard to port the Godot Engine to the iOS platforms. Not only did they port the editor to make it run on iOS, they successfully interfaced the editor with a custom iOS interface in order to make the engine match Apple strict UI and UX guidelines. Using their app on the iPad and iPhone feels totally native, _because it is_!
 
 Xibbon has been active in our community, in terms of code contributions and events. Xibbon has been our sponsor at events, such as the first [GodotCon in the US](/article/godotcon-us-2025-wrapup/)!
@@ -17,6 +71,12 @@ Today, [Miguel de Icaza](https://en.wikipedia.org/wiki/Miguel_de_Icaza), known f
 
 ## Can you tell us a little bit about your project?
 
+<div class="xogot-screenshot-container xogot-float-right">
+  <img
+    src="/assets/showcase/screenshots/xogot-1.webp"
+    alt="Screenshot of Xogot running on an iPad.">
+</div>
+
 Xogot brings the Godot Editor to the iPad and the iPhone as a native iOS application.
 
 Xogot uses the Godot Editor and the Godot Engine, but we provide an alternative user interface and shell that is built on top of Apple’s native user interface elements. We tuned the user experience to be both touch friendly and to work with the more limited screen space on these devices.
@@ -26,6 +86,7 @@ By being a new user interface on top of the existing Godot Editor, we remain com
 While I am an engineer, the joy that I derive from using creative apps on the iPad is unmatched.
 
 Interacting with the world with our fingers is one of the earliest skills that we acquire as babies - and I find the physical feedback of using touch user interfaces to be very rewarding.  Not only do I spend hours playing with my iPad, I also love watching creators use their iPads for sketching, drawing, modeling, composing, editing videos, and building games.
+
 
 ## Why did you want to build Xogot?
 
@@ -40,6 +101,12 @@ For almost sixteen years we have helped folks in the game industry adopt .NET fo
 Lastly, we all witnessed a major turning point in the game-engine industry when Unity’s leadership made decisions that shook developer trust across the community.  We watched as the industry rushed to find alternatives - and being emotionally invested already in Godot, we were very much in the camp “How can we give the Godot community an edge?”.
 
 ## What was challenging about bringing the Godot Editor to the iPad and iPhone?
+
+<div class="xogot-screenshot-container xogot-float-left">
+  <img
+    src="/assets/showcase/screenshots/xogot-3.webp"
+    alt="Screenshot of Xogot running on an iPhone.">
+</div>
 
 This is the poster child of a slippery slope, or an extreme case of Yak Shaving.
 
@@ -85,13 +152,21 @@ But there is a big gap between what people tell you they want and what they are 
 So, delivering the full Godot Editor on iPad and iPhone has meant more than just porting a desktop app. To meet App Store requirements and match Apple users’ expectations, we rebuilt the interface to be truly native and touch-first - something that feels at home on touch devices rather than adapted for it.
 Xogot has been a multi-year effort and a significant engineering investment. It’s a commercial product created by a small team deeply passionate about both Godot and Apple platforms. Xogot includes a free tier open to everyone, with the complete version provided at no cost to students and contributors to the Godot open-source project.
 
+
 ## What are the biggest differences between the Xogot and the Godot Editor?
 
 Xogot has two major limitations. First, it can not run third-party plugins authored in native code, or run .NET code. The reason for the former is that Apple’s security system does not allow for third-party dynamic code to be loaded into a process, so all of these plugins fail.
 
 And the ability to run .NET code is not something we have worked on.
 
+
 ## Considering the improvements made to adapt to the new form factor, are there any plans on bringing Xogot to other platforms?
+
+<div class="xogot-screenshot-container xogot-float-right">
+  <img
+    src="/assets/showcase/screenshots/xogot-2.webp"
+    alt="By default, when launching the game from the Xogot Editor, the game launches in a split screen.">
+</div>
 
 We want to bring Xogot to the Apple Vision Pro. Anecdotally, just before we decided to embark on bringing Godot to the iPad, we were working on building frameworks and games for the Vision Pro.  We were going to our first Boston Unity meeting to learn more about Unity and Vision when the Boston Unity group disbanded in response to Unity’s license changes. It was in this turmoil that we were inspired to jump headlong into the Godot world.
 
@@ -109,6 +184,7 @@ Our biggest contribution so far has been the [LibGodot](https://github.com/godot
 We’ve also contributed a number of smaller patches and fixes, and we’re continuing to learn what it takes to shepherd contributions through the review and merge process. Looking ahead, we expect to contribute larger components as well.  We already have a few ideas in mind. But as we’re still relatively new to the game development community, we want those contributions to be shaped by what we learn as Xogot and its user base continue to grow.
 
 I would love to participate more directly in Godot’s workgroups and community discussions. Balancing that with running a company and raising three kids can be challenging, but I have enormous respect for the dedication and care of the Godot team. My hope is that over time we can contribute not just code, but also ideas and processes that help strengthen the community.
+
 
 ## What’s next for Xogot?
 
