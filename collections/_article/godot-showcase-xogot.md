@@ -4,7 +4,7 @@ excerpt: "Miguel de Icaza from Xibbon shares his experience working on Xogot for
 categories: ["showcase"]
 author: Adam Scott
 image: /storage/blog/covers/godot-showcase-xogot.jpg
-date: 2026-04-03 18:00:00
+date: 2026-04-04 18:00:00
 ---
 
 We're happy to showcase a project that released last year, but was long in the making. The folks at Xibbon have been working hard to port the Godot Engine to the iOS platforms. Not only did they port the editor to make it run on iOS, they successfully interfaced the editor with a custom iOS interface in order to make the engine match Apple strict UI and UX guidelines. Using their app on the iPad and iPhone feels totally native, _because it is_!
