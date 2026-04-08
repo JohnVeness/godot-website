@@ -3,7 +3,7 @@ title: "Godot Mobile update — April 2026"
 excerpt: "April update from the Godot Mobile Team!"
 categories: ["progress-report"]
 author: Fredia Huya-Kouadio
-image: /storage/blog/covers/march-2026-update-godot-mobile.png
+image: /storage/blog/covers/april-2026-update-godot-mobile.png
 image_caption_description: "Screenshot of Spin Hero — https://goblinzstudio.com/game/spin-hero/"
 date: 2026-04-08 12:00:00
 ---
