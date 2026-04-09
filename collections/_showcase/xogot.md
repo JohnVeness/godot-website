@@ -21,7 +21,7 @@ platforms: ["ios"]
 appstore: https://apps.apple.com/us/app/xogot-godot-for-ipad-iphone/id6469385251
 
 tool: true
-featured_in_home: true
+featured_in_home: false
 ---
 
 Xogot brings the full power of the Godot game engine to iPad — and now iPhone.
