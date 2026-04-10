@@ -9,7 +9,7 @@ image_caption_description: "A game by Goblinz Studio"
 date: 2026-04-10 18:00:00
 ---
 
-## Making mobile games and apps with Godot: major improvements ahead\!
+## Major improvements ahead\!
 
 Mobile games represent about half of global game revenue and are the **largest market segment for games**, ahead of consoles and PC. In terms of user base, that share is even higher. From the [latest Godot community polls](https://docs.google.com/forms/d/e/1FAIpQLScKWGJoLEeNW1qrsDfZRfk7gHultapacH5ZhQmo9XRZADW1IQ/viewanalytics), about **49%** of Godot developers target mobile platforms. Mobile is therefore a major outlet for Godot games and apps, and improvements as to how Godot can be used in this area are crucial.
 
