@@ -5,14 +5,14 @@ categories: ["progress-report"]
 author: Fredia Huya-Kouadio
 image: /storage/blog/covers/april-2026-update-godot-mobile.png
 image_caption_description: "Screenshot of Spin Hero — https://goblinzstudio.com/game/spin-hero/"
-date: 2026-04-08 12:00:00
+date: 2026-04-10 18:00:00
 ---
 
 ## Making mobile games and apps with Godot: major improvements ahead\!
 
 Mobile games represent about half of global game revenue and are the **largest market segment for games**, ahead of consoles and PC. In terms of user base, that share is even higher. From the [latest Godot community polls](https://docs.google.com/forms/d/e/1FAIpQLScKWGJoLEeNW1qrsDfZRfk7gHultapacH5ZhQmo9XRZADW1IQ/viewanalytics), about **49%** of Godot developers target mobile platforms. Mobile is therefore a major outlet for Godot games and apps, and improvements as to how Godot can be used in this area are crucial.
 
-A great deal of effort has recently been invested by the community and the Godot Foundation into improving Godot’s mobile capabilities, culminating in the [**Godot 4.6**](https://godotengine.org/releases/4.6/) and [**Godot 4.5.2**](https://godotengine.org/article/maintenance-release-godot-4-5-2/)** releases. Much of the recent “mobile export” work has focused on critical fundamentals: repeatable builds, fewer device-specific surprises, and smoother testing. Below is an overview of some of those efforts. 
+A great deal of effort has recently been invested by the community and the Godot Foundation into improving Godot’s mobile capabilities, culminating in the [**Godot 4.6**](https://godotengine.org/releases/4.6/) and [**Godot 4.5.2**](https://godotengine.org/article/maintenance-release-godot-4-5-2/) releases. Much of the recent “mobile export” work has focused on critical fundamentals: repeatable builds, fewer device-specific surprises, and smoother testing. Below is an overview of some of those efforts.
 
 ### 1\. Android and iOS ecosystem plugins
 
@@ -24,7 +24,7 @@ The Godot Foundation has decided to begin **improving and maintaining the core p
 
 While third-party plugins may still be needed for additional services, this initiative should enable Godot developers to meet the standard minimum requirements for publishing games and apps, and to reach billions of mobile users worldwide. Improved documentation on exporting and integrating plugins will hopefully improve developers’ experience in this field.
 
-You can also find other community-maintained plugins under [https://github.com/godot-sdk-integrations](https://github.com/godot-sdk-integrations). 
+You can also find other community-maintained plugins under [https://github.com/godot-sdk-integrations](https://github.com/godot-sdk-integrations).
 
 ### 2\. Mobile GPU and rendering compatibility
 
@@ -42,7 +42,7 @@ Godot 4.5 saw the [addition of native debug symbols for Android](https://docs.go
 
 <img alt="Godot instrumented tests screenshot" src="/storage/blog/godot-mobile/updates/godot-instrumented-tests-screenshot.png" />
 
-Support for [Android instrumented tests](https://developer.android.com/training/testing/instrumented-tests) was added in Godot 4.6. This is a valuable tool for engine developers as it provides the ability to continuously, automatically run a series of tests on physical Android devices through services like [Google Firebase Test Lab](https://firebase.google.com/docs/test-lab) in order to validate the stability of the platform and catch any regressions that may slip in. We are aiming to increase the test suite coverage to a significant extent, and run it on a wide range of Android devices in order to pre-emptively catch issues Godot developers may run into. **At the moment though, we are running into the limitations of the Google Firebase Test Lab free tier regarding how many devices we can run the Godot engine test suite against.** As such we welcome any and all community support and contributions toward addressing that blocker and reaching our goal to run on as many Android devices as possible. 
+Support for [Android instrumented tests](https://developer.android.com/training/testing/instrumented-tests) was added in Godot 4.6. This is a valuable tool for engine developers as it provides the ability to continuously, automatically run a series of tests on physical Android devices through services like [Google Firebase Test Lab](https://firebase.google.com/docs/test-lab) in order to validate the stability of the platform and catch any regressions that may slip in. We are aiming to increase the test suite coverage to a significant extent, and run it on a wide range of Android devices in order to pre-emptively catch issues Godot developers may run into. **At the moment though, we are running into the limitations of the Google Firebase Test Lab free tier regarding how many devices we can run the Godot engine test suite against.** As such we welcome any and all community support and contributions toward addressing that blocker and reaching our goal to run on as many Android devices as possible.
 
 Support for [several tracing profilers](https://docs.godotengine.org/en/stable/engine_details/development/profiling/index.html#tracing-profilers), including [Perfetto for Android](https://docs.godotengine.org/en/stable/engine_details/development/profiling/perfetto.html) and [Instruments for Apple](https://docs.godotengine.org/en/stable/engine_details/development/profiling/instruments.html#), were added to enable engine developers the ability to profile and trace the engine at a system level, opening the path for continuous and more granular improvements to the engine.
 
@@ -54,7 +54,7 @@ iOS was not overlooked either, gaining logic that automatically enables export s
 
 ## Looking ahead
 
-The improvements made to Godot’s mobile platforms mark an important step toward making the engine a great choice for mobile games and apps. 
+The improvements made to Godot’s mobile platforms mark an important step toward making the engine a great choice for mobile games and apps.
 
 With these efforts on reliability, stability, and real-world production needs, the improvements to the mobile workflow, and the focus toward providing and improving mobile ecosystem plugins, we hope that the experience of shipping games on mobile devices has been improved and we look forward to seeing the great creations to come.
 
