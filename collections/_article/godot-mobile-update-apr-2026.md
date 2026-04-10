@@ -53,7 +53,7 @@ Support for mirroring connected Android devices directly from the editor was add
 
 iOS was not overlooked either, gaining logic that automatically enables export settings designed to reduce the risk of shipping builds that can technically be installed on certain devices but cannot run reliably.
 
-## Looking ahead
+## What's next?
 
 The improvements made to Godot’s mobile platforms mark an important step toward making the engine a great choice for mobile games and apps.
 
