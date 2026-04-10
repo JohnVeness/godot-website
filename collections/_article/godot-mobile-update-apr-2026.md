@@ -4,7 +4,8 @@ excerpt: "April update from the Godot Mobile Team!"
 categories: ["progress-report"]
 author: Fredia Huya-Kouadio
 image: /storage/blog/covers/april-2026-update-godot-mobile.png
-image_caption_description: "Screenshot of Spin Hero — https://goblinzstudio.com/game/spin-hero/"
+image_caption_title: "Spin Hero"
+image_caption_description: "A game by Goblinz Studio"
 date: 2026-04-10 18:00:00
 ---
 
@@ -59,3 +60,11 @@ The improvements made to Godot’s mobile platforms mark an important step towar
 With these efforts on reliability, stability, and real-world production needs, the improvements to the mobile workflow, and the focus toward providing and improving mobile ecosystem plugins, we hope that the experience of shipping games on mobile devices has been improved and we look forward to seeing the great creations to come.
 
 Looking ahead, this work is far from finished. Mobile platforms continue to evolve, with new hardware, operating system constraints, and store requirements appearing every year. Future efforts will build on the progress made so far, with continued improvements to rendering, performance, testing infrastructure, plugin coverage, and development workflows with the aim of making Godot mobile support as polished as Godot desktop support.
+
+---
+
+<div style="font-style: italic;" markdown=1>
+
+The cover illustration is from [Spin Hero](https://goblinzstudio.com/game/spin-hero/), a roguelike deckbuilder where you spin the reels to decide your fate, collect powerful symbols for your inventory, adapt and evolve your strategy, and learn from defeats to unlock new possibilities and synergies. Spin Hero was created by [Goblinz Studio](https://goblinzstudio.com/), an indie game developer and co-producer from France. You can buy the game on [Steam](https://store.steampowered.com/app/2917350/Spin_Hero/), [GOG](https://www.gog.com/game/spin_hero), [Google Play](https://play.google.com/store/apps/details?id=spherestudios.spinheromobile), and the [App Store](https://apps.apple.com/us/app/spin-hero/id6738923299), and follow the developers on [YouTube](https://www.youtube.com/channel/UCDM3ahQ6A7vt9-fsarlOp7g) or [Bluesky](https://bsky.app/profile/goblinzstudio.com).
+
+</div>
