@@ -48,7 +48,7 @@ Our previous development snapshot had a large focus on GUI improvements, and tha
 What's more, this operation will now consider the x-position of the cursor while determining a to-be parent when in indent space (leftmost, empty space), whereas item space largely retains current behavior. This implementation mirrors what one would commonly find in vector design software.
 
 <video autoplay loop muted playsinline title="Showcase of new x-position logic in indent space of a sample tree">
-  <source src="/storage/blog/dev-snapshot-godot-4-7-dev-4/tree-showcase.mp4?1" type="video/webm">
+  <source src="/storage/blog/dev-snapshot-godot-4-7-dev-4/tree-showcase.mp4?1" type="video/mp4">
 </video>
 
 ### Editor: Increase available space for array properties
@@ -108,8 +108,8 @@ In particular, any change that would cause a regression in your projects is very
 
 ## Support
 
-Godot is a non-profit, open source game engine developed by hundreds of contributors on their free time, as well as a handful of part and full-time developers hired thanks to [generous donations from the Godot community](https://fund.godotengine.org/). A big thank you to everyone who has contributed [their time](https://github.com/godotengine/godot/blob/master/AUTHORS.md) or [their financial support](https://github.com/godotengine/godot/blob/master/DONORS.md) to the project!
+Godot is a non-profit, open-source game engine developed by hundreds of contributors in their free time, as well as a handful of part and full-time developers hired thanks to [generous donations from the Godot community](https://fund.godotengine.org/). A big thank you to everyone who has contributed [their time](https://github.com/godotengine/godot/blob/master/AUTHORS.md) or [their financial support](https://github.com/godotengine/godot/blob/master/DONORS.md) to the project!
 
-If you'd like to support the project financially and help us secure our future hires, you can do so using the [Godot Development Fund](https://fund.godotengine.org/) platform managed by [Godot Foundation](https://godot.foundation/). There are also several [alternative ways to donate](/donate) which you may find more suitable.
+If you'd like to support the project financially and help us secure our future hires, you can do so using the [Godot Development Fund](https://fund.godotengine.org/) platform managed by the [Godot Foundation](https://godot.foundation/). There are also several [alternative ways to donate](/donate) which you may find more suitable.
 
 <a class="btn" href="https://fund.godotengine.org/">Donate now</a>
